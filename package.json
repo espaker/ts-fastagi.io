@@ -1,7 +1,7 @@
 {
-  "name": "fastagi.io",
+  "name": "ts-fastagi.io",
   "version": "1.2.5",
-  "description": "Asterisk node.js fastAgi Express-like Interface",
+  "description": "Asterisk node.js and TS fastAgi Express-like Interface",
   "main": "index.js",
   "repository": {
     "type": "git",

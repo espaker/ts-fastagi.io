@@ -1,4 +1,4 @@
-# fastagi.io
+# ts-fastagi.io its a fork with types and bugs fix, from fastagi.io
 
 ## Asterisk fastAGI: An Express-like AGI interface
 
