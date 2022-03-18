@@ -5,7 +5,7 @@
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/gary-jipp/asterisk.io.git"
+    "url": "git+https://github.com/espaker/ts-fastagi.io"
   },
   "keywords": [
     "asterisk",
@@ -17,9 +17,9 @@
   "author": "Gary J",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/gary-jipp/asterisk.io/issues"
+    "url": "https://github.com/espaker/ts-fastagi.ioissues"
   },
-  "homepage": "https://github.com/gary-jipp/asterisk.io#readme",
+  "homepage": "https://github.com/espaker/ts-fastagi.io#readme",
   "dependencies": {
     "asterisk.io": "^0.1.1"
   }
