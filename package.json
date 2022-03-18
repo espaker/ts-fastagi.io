@@ -1,6 +1,6 @@
 {
   "name": "@espaker/ts-fastagi.io",
-  "version": "1.3",
+  "version": "1.3.0",
   "description": "Asterisk node.js and TS fastAgi Express-like Interface",
   "main": "index.js",
   "repository": {
