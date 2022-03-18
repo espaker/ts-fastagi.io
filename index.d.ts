@@ -50,7 +50,7 @@ interface agiChannel {
     params: any
 }
 
-declare module 'fastagi.io' {
+declare module '@espaker/ts-fastagi.io' {
     function createApplication(): {
         agi: (path: string, callback: (channel: agiChannel) => void) => void,
         listen: (port: number, callback: any) => any
