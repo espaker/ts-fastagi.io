@@ -93,10 +93,10 @@ module.exports = demoAgi;
 ### `extensions.conf`
 ```
 [demo1] ; Demo
-exten  = s,1, NoOp()
-  same = n, Answer()
-  same = n, Set(count=199)
-  same = n, AGI(agi://localhost/demo1?param=123&param=456&param2=789)
-  same = n, Verbose(2, STATUS=${STATUS}, CODE=${CODE}})
-  same = n, hangup();
+exten  => s,1, NoOp()
+  same => n, Answer()
+  same => n, Set(count=199)
+  same => n, AGI(agi://localhost/demo1?param=123&param1=456&param3=789)
+  same => n, Verbose(2, STATUS=${STATUS}, CODE=${CODE}})
+  same => n, hangup();
 ```
