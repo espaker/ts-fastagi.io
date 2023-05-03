@@ -4,6 +4,8 @@ interface commandReturn {
     data: string 
 }
 
+type agiArgs = `agi_arg_${number}`
+
 interface agiChannel {
     on: (action: string, callback: any) => void,
     answer: () => PromiseLike<commandReturn>,
@@ -46,8 +48,11 @@ interface agiChannel {
         agi_enhanced: string,
         agi_accountcode: string, 
         agi_threadid: string,
+        [key: agiArgs]: string
     },
-    params: any
+    params: {
+        [key: string]: string
+    }
 }
 
 declare module '@espaker/ts-fastagi.io' {
